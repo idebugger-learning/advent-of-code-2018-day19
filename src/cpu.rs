@@ -37,6 +37,10 @@ impl CPU {
         }
     }
 
+    pub fn get_ip(&self) -> usize {
+        self.ip
+    }
+
     pub fn get_registers(&self) -> Registers {
         self.registers
     }
